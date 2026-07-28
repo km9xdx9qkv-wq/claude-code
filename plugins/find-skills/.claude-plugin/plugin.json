@@ -1,0 +1,9 @@
+{
+  "name": "find-skills",
+  "version": "1.0.0",
+  "description": "Helps discover and install agent skills from the open agent skills ecosystem",
+  "author": {
+    "name": "Vercel",
+    "email": "support@vercel.com"
+  }
+}

@@ -70,6 +70,17 @@
       "category": "development"
     },
     {
+      "name": "find-skills",
+      "description": "Helps discover and install agent skills from the open agent skills ecosystem, powered by the Skills CLI (npx skills)",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vercel",
+        "email": "support@vercel.com"
+      },
+      "source": "./plugins/find-skills",
+      "category": "productivity"
+    },
+    {
       "name": "frontend-design",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics.",
       "version": "1.0.0",
