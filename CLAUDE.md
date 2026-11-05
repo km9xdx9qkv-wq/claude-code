@@ -21,10 +21,12 @@ notebooklm login
 ```
 
 ## iVault
-Der iVault liegt auf dem Mac des Users, nicht in diesem Repo. Vor jeder Änderung im iVault zuerst `iVault/CLAUDE.md` lesen. Erst danach etwas anlegen oder ändern.
+Der iVault liegt auf dem Mac des Users, nicht in diesem Repo und nicht im Cloud-Container. Er ist nur über Desktop Commander oder Remote Control erreichbar, sofern der Mac online ist. Vor jeder Änderung im iVault zuerst `iVault/CLAUDE.md` lesen. Erst danach etwas anlegen oder ändern.
+
+Ist der Mac nicht erreichbar oder die Datei nicht auffindbar: nichts im iVault anlegen oder ändern, stoppen und den User fragen.
 
 ## Arbeitsweise
 - Auf dem vorgegebenen Feature-Branch arbeiten, nicht auf `main`.
-- Nach dem Push einen Draft-PR öffnen, falls noch keiner offen ist.
-- Ist der PR des Branches schon gemerged, den Branch auf `origin/main` neu aufsetzen, bevor neue Arbeit darauf landet.
-- Antworten und Notizen auf Deutsch.
+- Vor neuer Arbeit prüfen, ob der PR des Branches schon gemerged ist. Falls ja, den Branch auf `origin/main` neu aufsetzen, bevor etwas darauf landet.
+- Danach pushen und einen Draft-PR öffnen, falls kein offener PR für den Branch existiert. Ein gemergter oder geschlossener PR zählt nicht.
+- Antworten an den User und Notizen auf Deutsch. Commit-Messages, PR-Titel und -Texte sowie Code-Kommentare auf Englisch, wie in der bisherigen Historie.
